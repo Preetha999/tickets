@@ -58,10 +58,7 @@ public class BookingSeatsBean {
 	public void setTiming(ShowTimeBean timing) {
 		this.timing = timing;
 	}
-	@Override
-	public String toString() {
-		return "BookingSeatsBean [id=" + id + ", seatnumber=" + seatNumber + ", isBooked=" + isBooked + "]";
-	}
+	
 	
 
 }
